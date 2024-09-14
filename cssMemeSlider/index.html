@@ -8,37 +8,41 @@
 </head>
 <body>
 <div class="logo">
-    <img src="images/simpsons_logo.png" width="420" alt="Simpsons Logo">
+    <img src="images/simpsons_logo.png" alt="Simpsons Logo" width="420">
 </div>
 
-<div style="display: flex;justify-content: center">
-    <img src="images/Meme-Slider.png" width="320" alt="Meme Slider">
+<img src="images/Meme-Slider.png" alt="Meme Slider" class="slider-title">
 
-</div>
 
 <div class="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <input type="radio" name="slider" id="slide5">
+
     <div class="cards">
         <div class="slide" id="s1"><img src="images/resize.webp" alt="Slide 1"></div>
-        <div class="slide" id="s2"><img src="images/resize.webp" alt="Slide 2"></div>
-        <div class="slide" id="s3"><img src="images/resize.webp" alt="Slide 3"></div>
-        <div class="slide" id="s4"><img src="images/resize.webp" alt="Slide 4"></div>
-        <div class="slide" id="s5"><img src="images/resize.webp" alt="Slide 5"></div>
+        <div class="slide" id="s2"><img src="images/mem.webp" alt="Slide 2"></div>
+        <div class="slide" id="s3"><img src="images/mem_2.webp" alt="Slide 3"></div>
+        <div class="slide" id="s4"><img src="images/mem_3.png" alt="Slide 4"></div>
+        <div class="slide" id="s5"><img src="images/mem_4.webp" alt="Slide 5"></div>
     </div>
 
     <div class="controls-text">
         <div class="text">
-            <div class="caption" id="caption1">Caption 1</div>
-            <div class="caption" id="caption2">Caption 2</div>
-            <div class="caption" id="caption3">Caption 3</div>
-            <div class="caption" id="caption4">Caption 4</div>
-            <div class="caption" id="caption5">Caption 5</div>
+            <div class="caption" id="caption1">When a customer says: 'Everything works perfectly!'</div>
+            <div class="caption" id="caption2">Bart uses a for loop to punish code. Creative approach!</div>
+            <div class="caption" id="caption3">Homer discovers JavaScript... and his brain explodes with possibilities!</div>
+            <div class="caption" id="caption4">The evolution of programming: from low-level languages ​​to modern paradigms</div>
+            <div class="caption" id="caption5">When a programmer looks at someone else's code</div>
         </div>
         <div class="controls">
-           <img src="images/donut.png" alt="Slide 1" class="control-img">
-           <img src="images/donut.png" alt="Slide 2" class="control-img">
-           <img src="images/donut.png" alt="Slide 3" class="control-img">
-           <img src="images/donut.png" alt="Slide 4" class="control-img">
-           <img src="images/donut.png" alt="Slide 5" class="control-img">
+            <label for="slide1" class="control"><img src="images/donut_2.png" alt="Slide 1" class="control-img donut" id="donut1"></label>
+            <label for="slide2" class="control"><img src="images/donut_2.png" alt="Slide 2" class="control-img donut" id="donut2"></label>
+            <label for="slide3" class="control"><img src="images/donut_2.png" alt="Slide 3" class="control-img donut" id="donut3"></label>
+            <label for="slide4" class="control"><img src="images/donut_2.png" alt="Slide 4" class="control-img donut" id="donut4"></label>
+            <label for="slide5" class="control"><img src="images/donut_2.png" alt="Slide 5" class="control-img donut" id="donut5"></label>
         </div>
     </div>
 </div>
